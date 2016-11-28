@@ -12,9 +12,9 @@ boolean tof(int x) {
 don ee = new don();
 	Scanner hh  = new Scanner(System.in);  
 		int x = hh.nextInt(), y = 1;
-			if (ee.tof(x)) System.out.println("é par");
-				else System.out.println("é ímpar");
-if (x > 0) System.out.println("é maior que zero");
+			if (ee.tof(x)) System.out.println("x é par");
+				else System.out.println("x é ímpar");
+if (x > 0) System.out.println("x é maior que zero");
 	int yx = x;
 		while(yx<=x*10) {
 			System.out.println(x +"x" + y +"="+yx);
